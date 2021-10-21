@@ -3,7 +3,7 @@ namespace Pang.Blog.Server.DtoParameters.Base
     public class DtoParametersBase
     {
         private const int MaxPageSize = 30;
-        public string Q { get; set; }
+        public string? Q { get; set; }
 
         /// <summary>
         /// 页码
@@ -12,7 +12,7 @@ namespace Pang.Blog.Server.DtoParameters.Base
 
         private int _pageSize = 5;
         public string OrderBy { get; set; } = "Id";
-        public string Fields { get; set; }
+        public string? Fields { get; set; }
 
         /// <summary>
         /// 每页数据条数
