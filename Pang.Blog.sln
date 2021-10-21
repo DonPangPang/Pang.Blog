@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pang.Blog.Client", "Pang.Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pang.Blog.Shared", "Pang.Blog\Shared\Pang.Blog.Shared.csproj", "{542EBD6C-59AE-4C38-8228-D4567F7D4C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pang.Blog.Test", "Pang.Blog.Test\Pang.Blog.Test.csproj", "{C56C64DC-F8EB-40DF-8CB1-EAA47C368DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pang.Blog.Test", "Pang.Blog.Test\Pang.Blog.Test.csproj", "{C56C64DC-F8EB-40DF-8CB1-EAA47C368DBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB595F3E-7E60-40CD-B85A-E46E3A79FDF8}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
