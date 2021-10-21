@@ -23,4 +23,8 @@
     <Folder Include="Http\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pang.Blog\Server\Pang.Blog.Server.csproj" />
+  </ItemGroup>
+
 </Project>

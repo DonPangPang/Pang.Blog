@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pang.Blog.Server</name>
+    </assembly>
+    <members>
+        <member name="M:Pang.Blog.Server.Controllers.CommentController.#ctor(Pang.Blog.Server.Repertories.Base.IRepertoryBase{Pang.Blog.Server.Entities.Comment},AutoMapper.IMapper)">
+            <summary>
+            评论API
+            </summary>
+            <param name="repertory"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Pang.Blog.Server.Controllers.CommentController.GetCommentsByBlog(System.Guid)">
+            <summary>
+            获取所有评论
+            </summary>
+            <param name="blogId"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Pang.Blog.Server.DtoParameters.Base.DtoParametersBase.PageNumber">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Pang.Blog.Server.DtoParameters.Base.DtoParametersBase.PageSize">
+            <summary>
+            每页数据条数
+            </summary>
+        </member>
+        <member name="P:Pang.Blog.Server.Entities.PBlog.ViewCount">
+            <summary>
+            浏览数
+            </summary>
+        </member>
+        <member name="P:Pang.Blog.Server.Entities.User.IsAuthor">
+            <summary>
+            是否有编写博客的权限
+            </summary>
+        </member>
+        <member name="M:Pang.Blog.Server.Repertories.Base.IRepertoryBase`1.InsertAsync(`0)">
+            <summary>
+            插入一条实体
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pang.Blog.Server.Repertories.Base.IRepertoryBase`1.InsertAsync(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            插入一条实体
+            </summary>
+            /// <returns></returns>
+        </member>
+    </members>
+</doc>

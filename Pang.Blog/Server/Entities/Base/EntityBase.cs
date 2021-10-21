@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using Pang.Blog.Server.Helpers;
+using Pang.Blog.Server.Repertories.Base;
 
 namespace Pang.Blog.Server.Entities.Base
 {
