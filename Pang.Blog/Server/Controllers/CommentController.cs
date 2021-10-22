@@ -105,8 +105,9 @@ namespace Pang.Blog.Server.Controllers
                 Id = commentId,
                 DeleteMark = true
             };
+            comment.Modify();
 
-            if (await _repertory.DeleteAsync(comment))
+            if (await _repertory.UpdateAsync(comment))
             {
                 return Success("删除成功");
             }
